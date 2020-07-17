@@ -55,6 +55,8 @@ New-Item -ItemType "file" -Path $files -force
 git remote add origin https://github.com/Pearcee/WeatherPWA.git
 git push -u origin master
 
+  git config --global user.email "sjpearce@gmail.com"
+  git config --global user.name "pearcee"
 
 #>
 
